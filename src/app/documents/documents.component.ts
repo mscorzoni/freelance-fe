@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Document } from './document'
+import { Document } from './document';
 
 @Component({
   selector: 'documents',
@@ -7,6 +7,7 @@ import { Document } from './document'
   styleUrls: ['./documents.component.css']
 })
 export class DocumentsComponent {
+  pageTitle: string = "Document Dashboard";
   documents: Document[] = [
     {
       title: 'My First Doc',
