@@ -8,6 +8,8 @@ import { DocumentsComponent } from './documents/documents.component';
 import { ProposalListComponent } from './proposal/proposal-list.component' ;
 import { ProposalComponent } from './proposal/proposal.component';
 import { ProposalNewComponent } from './proposal/proposal-new.component';
+import { ProposalShowComponent } from './proposal/proposal-show.component';
+
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -19,6 +21,7 @@ import { AppRoutingModule } from './app-routing.module';
     ProposalComponent,
     ProposalListComponent,
     ProposalNewComponent,
+    ProposalShowComponent,
   ],
   imports: [
     BrowserModule,
