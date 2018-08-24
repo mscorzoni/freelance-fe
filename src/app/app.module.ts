@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { DocumentsComponent } from './documents/documents.component';
+import { DocumentService } from './documents/document.service';
 import { ProposalListComponent } from './proposal/proposal-list.component' ;
 import { ProposalComponent } from './proposal/proposal.component';
 import { ProposalNewComponent } from './proposal/proposal-new.component';
@@ -33,7 +34,9 @@ import { AppRoutingModule } from './app-routing.module';
     NgbModule,
 
   ],
-  providers: [],
+  providers: [
+    DocumentService
+  ],
   bootstrap: [
     AppComponent
     ]
