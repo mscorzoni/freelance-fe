@@ -19,7 +19,7 @@
             >
           </div>
 
-          <div [hidden]="customer.valid || customer.pristine">
+          <div [hidden]="customer.valid || customer.pristine" class="alert alert-danger">
             Customer name is required
           </div>
 
@@ -34,7 +34,7 @@
             >
           </div>
 
-          <div [hidden]="portfolio_url.valid || portfolio_url.pristine">
+          <div [hidden]="portfolio_url.valid || portfolio_url.pristine" class="alert alert-danger">
             Portfolio URL is required
           </div>
 
@@ -50,7 +50,7 @@
             >
           </div>
 
-          <div [hidden]="tools.valid || tools.pristine">
+          <div [hidden]="tools.valid || tools.pristine" class="alert alert-danger">
             A list of tools is required
           </div>
 
@@ -65,7 +65,7 @@
             >
           </div>
 
-          <div [hidden]="estimated_hours.valid || estimated_hours.pristine">
+          <div [hidden]="estimated_hours.valid || estimated_hours.pristine" class="alert alert-danger">
             Estimated Hours is required
           </div>
 
@@ -80,7 +80,7 @@
             >
           </div>
 
-          <div [hidden]="hourly_rate.valid || hourly_rate.pristine">
+          <div [hidden]="hourly_rate.valid || hourly_rate.pristine" class="alert alert-danger">
             Hourly Rate is required
           </div>
 
