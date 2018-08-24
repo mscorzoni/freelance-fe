@@ -5,6 +5,7 @@ import { Proposal } from './proposal';
 @Component({
   selector: 'proposal-show',
   templateUrl: 'proposal-show.component.html',
+  styleUrls: ['proposal-show.component.css']
 
 })
 
