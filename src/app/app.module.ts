@@ -13,6 +13,7 @@ import { ProposalListComponent } from './proposal/proposal-list.component' ;
 import { ProposalComponent } from './proposal/proposal.component';
 import { ProposalNewComponent } from './proposal/proposal-new.component';
 import { ProposalShowComponent } from './proposal/proposal-show.component';
+import { ProposalService } from './proposal/proposal.service';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -37,7 +38,8 @@ import { AppRoutingModule } from './app-routing.module';
 
   ],
   providers: [
-    DocumentService
+    DocumentService,
+    ProposalService
   ],
   bootstrap: [
     AppComponent
